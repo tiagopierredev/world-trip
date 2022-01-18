@@ -1,19 +1,17 @@
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination, A11y } from 'swiper'
 
 // Import Swiper styles
-import { Box } from '@chakra-ui/react';
+import { Box, Text, Flex } from '@chakra-ui/react'
 
-import 'swiper/css';
+import 'swiper/css'
 
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import { CarouselItem } from './CarouselItem'
 
 export function Carousel() {
-
   return (
     <Box mt="12" mb="8">
       <Swiper
@@ -23,26 +21,31 @@ export function Carousel() {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSwiper={swiper => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide>
-          <Box backgroundImage="/continenteeuropeu.png" h="450px">
-
-          </Box>
+          <CarouselItem
+            image="/continenteeuropeu.png"
+            title="Europa"
+            description="O continente mais antigo."
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Box backgroundImage="/continenteeuropeu.png" h="450px">
-
-          </Box>
+          <CarouselItem
+            image="/america-norte.jpg"
+            title="América do Norte"
+            description="O continente mais moderno."
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Box backgroundImage="/continenteeuropeu.png" h="450px">
-
-          </Box>
+          <CarouselItem
+            image="/america-sul.jpg"
+            title="América do Sul"
+            description="O continente mais tropical."
+          />
         </SwiperSlide>
-
       </Swiper>
-    </Box >
+    </Box>
   )
 }
