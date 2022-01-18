@@ -36,7 +36,7 @@ Este projeto é uma página no formato landing page, construída para aprender a
 
 ## 🔖 Layout
 
-Criado por [Iuri Silva](https://www.linkedin.com/in/rocktseat/)
+Criado por [Rocktseat](https://www.linkedin.com/in/rocktseat/)
 
 ## 📝 Licença
 
