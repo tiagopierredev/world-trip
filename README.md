@@ -14,7 +14,11 @@
 <br>
 
 <p align="center">
-  <img alt="login-page" src="https://github.com/tiagopierre/login-tailwind/blob/main/assets/screencapture-127-0-0-1-5500-index-html-2022-01-10-15_12_03.png?raw=true" width="100%">
+  <img alt="landing-page" src="https://github.com/tiagopierre/world-trip/blob/main/screenshot/screencapture-localhost-3000-2022-01-18-07_21_43.png?raw=true" width="100%">
+</p>
+
+<p align="center">
+  <img alt="landing-page" src="https://github.com/tiagopierre/world-trip/blob/main/screenshot/screencapture-localhost-3000-continent-2022-01-18-07_22_10.png?raw=true" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -23,18 +27,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-
-Bibliotecas
-
-- [Tailwind](https://tailwindcss.com/)
+- NextJs
+- ChakraUi
 
 ## 💻 Projeto
 
-Este projeto é uma página de login, construída para aprender os fundamentos do Tailwind.
+Este projeto é uma página no formato landing page, construída para aprender a como usar o ChakraUi em meu projetos.
 
 ## 🔖 Layout
 
-Criado por [Iuri Silva](https://www.linkedin.com/in/iuricode/), o layout do projeto pode ser visualizado atráves [desse link](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=4261%3A2). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Criado por [Iuri Silva](https://www.linkedin.com/in/rocktseat/)
 
 ## 📝 Licença
 
